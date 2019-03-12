@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <style>
+            .body{color:red;font-weight:bold;font-size:30px;margin:0;
+            border-bottom:2px solid black;border-top:2px solid black;}
+            .zongJie{font-size:40px;text-align:center;}
+            .quFen{color:#252526;font-weight:bold;font-size:25px;}
+            .xiFen{color:#890405;font-weight:bold;font-size:20px;}
+            .tuXian{color:green;}
+            b,i,sup,sub,strong,em,blockquote,q,abbr,cite,dfn,address,ins,del{background:#f9cc9d;}
+        </style>
+    </head>
+    <body>
+        <p class="zongJie">结构化标签</p>
+        <p class="body">结构</p>
+        <h1>这是一个标题</h1>
+        <p>这是主标题下的段落</p>
+        <h2>这是一个子标题</h2>
+        <p>这是子标题下的段落</p>
+        <h2>这是另一个子标题</h2>
+        <p>这是另一个子标题下的段落</p>
+        <p class="body">各类标题</p>
+        <h1>这是一个标题</h1>
+        <h2>这是一个标题</h2>
+        <h3>这是一个标题</h3>
+        <h4>这是一个标题</h4>
+        <h5>这是一个标题</h5>
+        <h6>这是一个标题</h6>
+        <p class="body">各类文本元素</p>
+        <span class="quFen">粗体：&lt;<span class="tuXian">b</span>&gt;</span>标签通常用作：<b>粗体</b>在外观上将元素显示为粗体，没有其他特殊的含义。<br />
+        <span class="quFen">斜体：&lt;<span class="tuXian">i</span>&gt;</span>标签通常用作：<i>斜体</i>在外观、格式上将元素显示为斜体，没有其他特殊的含义，
+        通常用作技术词语、轮船名称、外语单词等。<br />
+        <span class="quFen">上标：&lt;<span class="tuXian">sup</span>&gt;</span>标签用来标记作为上标的字符，例如2<sup>2</sup><br />
+        <span class="quFen">下标：&lt;<span class="tuXian">sub</span>&gt;</span>标签用来标记作为下表的字符，例如脚注或者H<sub>2</sub>O<br />
+        <span class="quFen">空白：</span>当浏览器遇到两个或者两个以上的连续空格和遇到一次换行的时候，只将其显示为一个空格<br />
+        <!--    <span class="quFen">&lt;<span class="tuXian">sup</span>&gt;</span>    -->
+        <!--   &lt;&gt;   -->
+        <span class="quFen">换行符：&lt;<span class="tuXian">br /</span>&gt;</span>             <hr />
+        <span class="quFen">水平线：&lt;<span class="tuXian">hr /</span>&gt;</span>如：该行上下，就各有一条水平线
+        <hr />
+        <p class="zongJie">语义化标签</p>
+        <span class="quFen">加粗和强调：&lt;<span class="tuXian">strong</span>&gt;</span>元素表示：<strong>外观为粗体，表重要、强调</strong>其中的内容十分重要。例如阅读&lt;strong&gt;元素内的文字时可能会加重语气
+        <span class="quFen">&lt;<span class="tuXian">em</span>&gt;</span>元素表示：<em>斜体，表强调，细微改变语句的含义</em><br />
+        <span class="quFen">引用：<span class="xiFen">(长引用)</span>&lt;<span class="tuXian">blockquote</span>&gt;</span>如下所示：(可用cite属性来表明引用的来源，其值为一个URL)
+        <blockquote cite="www.baidu.com" title="百度一下，你就知道">生命诚可贵，爱情价更高。若为自由故，两者皆可抛</blockquote>
+        <span class="quFen">引用：<span class="xiFen">(短引用)</span>&lt;<span class="tuXian">q</span>&gt;</span>如下所示：(可用cite属性来表明引用的来源，其值为一个URL)<br />   
+        老师经常叫我们多读<q cite="www.baidu.com" title="钢铁是怎样炼成的">钢铁是怎样炼成的</q>这本书。
+        <!--    <span class="quFen">&lt;<span class="tuXian">sup</span>&gt;</span>    -->
+        <span class="quFen">缩写词和首字母缩写词：&lt;<span class="tuXian">abbr</span>&gt;</span>如：<abbr title="HyperText Markup Language">HTML</abbr>是超文本标记语言，学习它真的很有趣。<br />
+        <span class="quFen">引文 和 定义：&lt;<span class="tuXian">cite</span>&gt;</span>当你引用一部作品时，&lt;cite&gt;元素可以用来表明引用的来源，如下：(浏览器展示为斜体)<br />
+        <cite>The Scream</cite>by Edward Munch<br />
+        天才=2%的灵感+98%的汗水。<cite>（爱迪生名言）</cite><br />
+        这段文字中引语出自<cite>《论语·八佾》</cite><br />
+        <span class="quFen">引文 和 定义：&lt;<span class="tuXian">dfn</span>&gt;</span>元素用来：表示一个新术语的定义。如：<dfn>定义项目</dfn><br />
+        <span class="quFen">设计者详细信息：&lt;<span class="tuXian">address</span>&gt;</span>元素用来：包含页面设计者的联系信息(电话、地址、emil等)，如下：
+        <address>网址：www.baidu.com<br />
+        地址 ：中华人民共合作北京市朝阳区001号
+        </address>
+        <span class="quFen">内容的修改：&lt;<span class="tuXian">ins</span>&gt;</span>元素用来显示
+        已经插入到文档中的内容，如：小明有一张小 <ins> 嘴巴 </ins>和两只大 <ins> 眼睛 </ins>。
+        <span class="quFen">&lt;<span class="tuXian">del</span>&gt;</span>元素表示：不准确或不相关却并不应当
+        予以删除的内容。如下：<br />大甩卖了！美的冰箱原价<del>199</del>元，现在只要99元，美的冰箱带回家！
+    </body>
+</html>
